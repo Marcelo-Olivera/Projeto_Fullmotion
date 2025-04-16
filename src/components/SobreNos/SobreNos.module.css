@@ -1,0 +1,90 @@
+.sobreNos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.containerTexto{
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.containerTexto h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.highlight{
+    color: #49c5b6;
+}
+
+.containerTexto p{
+    font-size: 1.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.containerImagem {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax {
+    width: 80%;
+    background-image: url("src/components/SobreNos/SalaFullmotion.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+
+.tituloContainer{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    color: #49c5b6
+}
+
+.borda{
+    width: 80%;
+    height: 1px;
+    background-color: #aaa;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.containerDiferenciais{
+    display: flex;
+}
+
+.containerDiferenciais ul{
+    list-style-type: none;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 3rem;
+    color: #49c5b6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
