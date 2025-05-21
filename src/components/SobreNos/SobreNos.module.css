@@ -1,27 +1,18 @@
 .sobreNos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 3fr;
+    grid-template-areas: 
+        "titulo titulo"
+        "texto imagem";
+    width: 100%;   
 }
 
 .containerTexto{
+    grid-area: texto;
     padding: 0 5rem;
     display: flex;
     flex-direction: column;
-    width: 40%;
-}
-
-.containerTexto h1{
-    font-size: 2.5rem;
-    color: white;
-    margin-bottom: 1rem;
-    flex-grow: 1;
-}
-
-.highlight{
-    color: #49c5b6;
 }
 
 .containerTexto p{
@@ -31,10 +22,9 @@
 }
 
 .containerImagem {
-    padding-top: 40px;
+    grid-area: imagem;
     display: flex;
     justify-content: center;
-    width: 50%;
     position: relative;
     overflow: hidden;
 }
@@ -51,24 +41,13 @@
 }
 
 
-.tituloContainer{
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-}
-
 .titulo{
-    font-size: 1.5rem;
-    color: #49c5b6
+    margin-top: 2rem;
+    grid-area: titulo;
+    display: flex;
+    flex-direction: column;
 }
 
-.borda{
-    width: 80%;
-    height: 1px;
-    background-color: #aaa;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
 .containerDiferenciais{
     display: flex;

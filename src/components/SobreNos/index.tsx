@@ -1,17 +1,18 @@
 import styles from "./SobreNos.module.css";
 import { FaCheckCircle } from "react-icons/fa";
+import Titulo from "../Titulo";
 
 function SobreNos() {
     return (
         <section id="sobreNos" className={styles.sobreNos}>
+            <div className={styles.titulo}>
+                <Titulo
+                    titulo="Sobre nós"
+                    h1="Quem é a "
+                    highlight="Fullmotion?" 
+                />
+            </div>
             <div className={styles.containerTexto}>
-                <div className={styles.tituloContainer}>
-                    <span className={styles.titulo}>Sobre Nós</span>
-                    <span className={styles.borda}></span>
-                </div>
-                <h1>
-                    Quem é a <span className={styles.highlight}>Fullmotion?</span>
-                </h1>
                 <p>
                     A Fullmotion é um consultório especializado em fisioterapia e massoterapia,
                     focado no seu bem-estar e qualidade de vida. Nossos profissionais altamente

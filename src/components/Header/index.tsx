@@ -35,8 +35,8 @@ function Header() {
         </div>
         <nav ref={navRef} className={styles.nav}>
           <a href='#sobreNos' className={styles.a}>Sobre Nós</a>
-          <a href='#' className={styles.a}>Serviços</a>
-          <a href='#' className={styles.a}>Contato</a>
+          <a href='#servicos' className={styles.a}>Serviços</a>
+          <a href='#contatos' className={styles.a}>Contatos</a>
         </nav>
         <button className={styles.menu} onClick={() => setDrawerOpen(true)}>
           <IoMenuOutline size={40} />

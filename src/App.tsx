@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Inicio from "./pages/Inicio"
 import AgendarAvaliacao from "./pages/AgendarAvaliacao";
 import Login from "./pages/Login";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/agendar" element={<AgendarAvaliacao />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }

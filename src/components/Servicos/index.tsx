@@ -1,18 +1,15 @@
 import styles from "./Servicos.module.css";
 import ActionAreaCard from "../Cards";
+import Titulo from "../Titulo";
 
 function Servicos() {
     return (
         <section id="servicos" className={styles.servicos}>
-            <div className={styles.containerTexto}>
-                <div className={styles.tituloContainer}>
-                    <span className={styles.titulo}>Serviços</span>
-                    <span className={styles.borda}></span>
-                </div>
-                <h1>
-                    Nossos <span className={styles.highlight}>Serviços</span>
-                </h1>
-            </div>
+            <Titulo
+                    titulo="Serviços"
+                    h1="Nossos "
+                    highlight="Serviços" 
+                />
             <div className={styles.cards}>
             <ActionAreaCard
                 title="lorem ipsum"
