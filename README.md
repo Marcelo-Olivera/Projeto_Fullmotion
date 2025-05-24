@@ -53,7 +53,7 @@ Projeto_Fullmotion é um sistema front-end para agendamento de consultas de fisi
 
 ## Estrutura de Pastas
 
-Projeto_Fullmotion/
+Projeto_Fullmotion/  
 ├── public/                  # Arquivos públicos estáticos  
 ├── src/                     # Código-fonte React  
 │   ├── assets/              # Imagens e arquivos estáticos  
