@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+# Projeto_Fullmotion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)  
+![React](https://img.shields.io/badge/react-%5E18.2.0-blue)  
+![TypeScript](https://img.shields.io/badge/typescript-%5E4.9.0-blue)  
+![Material UI](https://img.shields.io/badge/material--ui-%5E5.12.3-blueviolet)  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
 
-## Expanding the ESLint configuration
+Projeto_Fullmotion é um sistema front-end para agendamento de consultas de fisioterapia, permitindo que fisioterapeutas gerenciem suas agendas e compartilhem vídeos de exercícios com pacientes. Construído em React com TypeScript, CSS Modules e Material UI, com navegação via React Router.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React  
+- TypeScript  
+- CSS Modules  
+- Material UI  
+- React Router  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Funcionalidades Principais
+
+- Sistema de login para fisioterapeutas e pacientes  
+- Agendamento de consultas  
+- Upload e visualização de vídeos de exercícios  
+- Navegação dinâmica entre páginas com React Router  
+- Integração futura com pagamento via Pix (Mercado Pago)  
+
+---
+
+## Como Rodar o Projeto Localmente
+
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/Projeto_Fullmotion.git
+
+2. Entre na pasta do projeto:
+   ```bash
+   cd Projeto_Fullmotion
+
+3. Instale as dependências:
+   ```bash
+   npm install
+
+4. Rode o projeto:
+   ```bash
+   npm start
+
+## Estrutura de Pastas
+
+## Estrutura de Pastas
+
+Projeto_Fullmotion/
+├── public/                  # Arquivos públicos estáticos  
+├── src/                     # Código-fonte React
+│   ├── assets/              # Imagens e arquivos estáticos  
+│   ├── components/          # Componentes reutilizáveis  
+│   ├── pages/               # Páginas do sistema   
+│   ├── App.tsx              # Componente principal
+│   ├── index.css            # Estilos globais   
+│   ├── main.tsx             # Ponto de entrada da aplicação
+│   └── vite-env.d.ts        # Tipagens globais do Vite   
+├── .gitignore               # Arquivos e pastas ignorados pelo Git
+├── eslint.config.js         # Configuração do ESLint
+├── index.html               # HTML principal do projeto
+├── package-lock.json        # Lockfile do npm
+├── package.json             # Dependências e scripts  
+├── README.md                # Documentação do projeto
+├── tsconfig.app.json        # Configuração TypeScript para app  
+├── tsconfig.json            # Configuração principal do TypeScript  
+├── tsconfig.node.json       # Configuração TypeScript para Node  
+├── vite.config.ts           # Configuração do Vite  
