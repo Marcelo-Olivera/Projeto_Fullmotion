@@ -53,25 +53,32 @@ Projeto_Fullmotion é um sistema front-end para agendamento de consultas de fisi
 
 ## Estrutura de Pastas
 
-## Estrutura de Pastas
-
 Projeto_Fullmotion/
 ├── public/                  # Arquivos públicos estáticos  
-├── src/                     # Código-fonte React
+├── src/                     # Código-fonte React  
 │   ├── assets/              # Imagens e arquivos estáticos  
 │   ├── components/          # Componentes reutilizáveis  
 │   ├── pages/               # Páginas do sistema   
-│   ├── App.tsx              # Componente principal
+│   ├── App.tsx              # Componente principal  
 │   ├── index.css            # Estilos globais   
-│   ├── main.tsx             # Ponto de entrada da aplicação
+│   ├── main.tsx             # Ponto de entrada da aplicação  
 │   └── vite-env.d.ts        # Tipagens globais do Vite   
-├── .gitignore               # Arquivos e pastas ignorados pelo Git
-├── eslint.config.js         # Configuração do ESLint
-├── index.html               # HTML principal do projeto
-├── package-lock.json        # Lockfile do npm
+├── .gitignore               # Arquivos e pastas ignorados pelo Git  
+├── eslint.config.js         # Configuração do ESLint  
+├── index.html               # HTML principal do projeto  
+├── package-lock.json        # Lockfile do npm  
 ├── package.json             # Dependências e scripts  
-├── README.md                # Documentação do projeto
+├── README.md                # Documentação do projeto  
 ├── tsconfig.app.json        # Configuração TypeScript para app  
 ├── tsconfig.json            # Configuração principal do TypeScript  
 ├── tsconfig.node.json       # Configuração TypeScript para Node  
 ├── vite.config.ts           # Configuração do Vite  
+
+## Status do Projeto
+
+:construction: Em desenvolvimento
+
+## Contato
+
+E-mail: marcelo.oliveira.256@gmail.com  
+LinkedIn: https://www.linkedin.com/in/marcelo-silvaoli/  
